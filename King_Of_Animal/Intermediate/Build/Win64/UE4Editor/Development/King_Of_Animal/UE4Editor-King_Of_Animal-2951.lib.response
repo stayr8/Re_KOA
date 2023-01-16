@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-King_Of_Animal-2951.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\King_Of_AnimalEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_Animal.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_AnimalCharacter.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_AnimalGameMode.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_Animal.init.gen.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_AnimalCharacter.gen.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\King_Of_AnimalGameMode.gen.cpp.obj"
+"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Default.rc2.res"
+/OUT:"D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-2951.lib"

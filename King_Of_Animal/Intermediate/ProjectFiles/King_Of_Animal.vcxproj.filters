@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\King_Of_Animal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DAC08B82-E2D8-4ECD-8422-DB164DBAF07B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\King_Of_Animal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\King_Of_AnimalEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FB9C6D71-2E6D-4D5A-8F86-77A6E0B3B41A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\King_Of_Animal">
+      <UniqueIdentifier>{E1A1CA2A-B2DD-4EE8-8421-6AA356C5CF09}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\King_Of_Animal\HitboxActor.cpp">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\King_Of_Animal\HitboxActor.h">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\King_Of_Animal\King_Of_Animal.Build.cs">
+      <Filter>Source\King_Of_Animal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\King_Of_Animal\King_Of_Animal.cpp">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\King_Of_Animal\King_Of_Animal.h">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\King_Of_Animal\King_Of_AnimalCharacter.cpp">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\King_Of_Animal\King_Of_AnimalCharacter.h">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\King_Of_Animal\King_Of_AnimalGameMode.cpp">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\King_Of_Animal\King_Of_AnimalGameMode.h">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
