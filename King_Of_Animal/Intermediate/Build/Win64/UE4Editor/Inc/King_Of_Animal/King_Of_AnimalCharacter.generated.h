@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define KING_OF_ANIMAL_King_Of_AnimalCharacter_generated_h
 
 #define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_SPARSE_DATA
-#define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_RPC_WRAPPERS
-#define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTakeDamage);
+
+
+#define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTakeDamage);
+
+
 #define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAKing_Of_AnimalCharacter(); \

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "King_Of_Animal",
-			"Path": "D:\\Documents\\Unreal Projects\\King_Of_Animal\\Source\\King_Of_Animal.Target.cs",
+			"Path": "C:\\Users\\stayr\\Documents\\GitHub\\Re_KOA\\King_Of_Animal\\Source\\King_Of_Animal.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "King_Of_AnimalEditor",
-			"Path": "D:\\Documents\\Unreal Projects\\King_Of_Animal\\Source\\King_Of_AnimalEditor.Target.cs",
+			"Path": "C:\\Users\\stayr\\Documents\\GitHub\\Re_KOA\\King_Of_Animal\\Source\\King_Of_AnimalEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

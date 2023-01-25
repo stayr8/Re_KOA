@@ -20,8 +20,55 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AKing_Of_AnimalCharacter::execTakeDamage)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param__damageAmount);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TakeDamage(Z_Param__damageAmount);
+		P_NATIVE_END;
+	}
 	void AKing_Of_AnimalCharacter::StaticRegisterNativesAKing_Of_AnimalCharacter()
 	{
+		UClass* Class = AKing_Of_AnimalCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "TakeDamage", &AKing_Of_AnimalCharacter::execTakeDamage },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics
+	{
+		struct King_Of_AnimalCharacter_eventTakeDamage_Parms
+		{
+			float _damageAmount;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__damageAmount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::NewProp__damageAmount = { "_damageAmount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(King_Of_AnimalCharacter_eventTakeDamage_Parms, _damageAmount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::NewProp__damageAmount,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Damage the player\n" },
+		{ "ModuleRelativePath", "King_Of_AnimalCharacter.h" },
+		{ "ToolTip", "Damage the player" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AKing_Of_AnimalCharacter, nullptr, "TakeDamage", nullptr, nullptr, sizeof(King_Of_AnimalCharacter_eventTakeDamage_Parms), Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AKing_Of_AnimalCharacter_NoRegister()
 	{
@@ -30,6 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 	struct Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -57,6 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 	UObject* (*const Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_King_Of_Animal,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AKing_Of_AnimalCharacter_TakeDamage, "TakeDamage" }, // 837545629
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::Class_MetaDataParams[] = {
@@ -123,11 +174,11 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -142,7 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKing_Of_AnimalCharacter, 4264913238);
+	IMPLEMENT_CLASS(AKing_Of_AnimalCharacter, 2362669219);
 	template<> KING_OF_ANIMAL_API UClass* StaticClass<AKing_Of_AnimalCharacter>()
 	{
 		return AKing_Of_AnimalCharacter::StaticClass();

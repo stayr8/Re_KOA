@@ -1,2 +1,2 @@
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
-D:\Documents\Unreal Projects\King_Of_Animal\Source\King_Of_Animal\King_Of_Animal.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_Animal.h

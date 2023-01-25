@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Documents\\Unreal Projects\\King_Of_Animal\\Source\\King_Of_Animal\\King_Of_Animal.Build.cs",
-		"D:\\Documents\\Unreal Projects\\King_Of_Animal\\Source\\King_Of_Animal.Target.cs",
-		"D:\\Documents\\Unreal Projects\\King_Of_Animal\\Source\\King_Of_AnimalEditor.Target.cs"
+		"C:\\Users\\stayr\\Documents\\GitHub\\Re_KOA\\King_Of_Animal\\Source\\King_Of_Animal\\King_Of_Animal.Build.cs",
+		"C:\\Users\\stayr\\Documents\\GitHub\\Re_KOA\\King_Of_Animal\\Source\\King_Of_Animal.Target.cs",
+		"C:\\Users\\stayr\\Documents\\GitHub\\Re_KOA\\King_Of_Animal\\Source\\King_Of_AnimalEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_Animal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x13E9B7B7,
+				0x06E6DE4A,
 				0x700281AF,
 				METADATA_PARAMS(nullptr, 0)
 			};

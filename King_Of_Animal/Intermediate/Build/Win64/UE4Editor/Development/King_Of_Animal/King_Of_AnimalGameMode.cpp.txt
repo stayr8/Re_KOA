@@ -1,15 +1,15 @@
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
-D:\Documents\Unreal Projects\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalGameMode.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\King_Of_AnimalGameMode.generated.h
-D:\Documents\Unreal Projects\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\King_Of_AnimalCharacter.generated.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\King_Of_AnimalCharacter.generated.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\King_Of_AnimalGameMode.generated.h

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalGameMode() {}
 	KING_OF_ANIMAL_API UClass* Z_Construct_UClass_AKing_Of_AnimalGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_King_Of_Animal();
+	KING_OF_ANIMAL_API UClass* Z_Construct_UClass_AKing_Of_AnimalCharacter_NoRegister();
 // End Cross Module References
 	void AKing_Of_AnimalGameMode::StaticRegisterNativesAKing_Of_AnimalGameMode()
 	{
@@ -31,6 +32,15 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player1_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player1;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player2;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +56,24 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player1_MetaData[] = {
+		{ "Category", "Player References" },
+		{ "ModuleRelativePath", "King_Of_AnimalGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player1 = { "player1", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing_Of_AnimalGameMode, player1), Z_Construct_UClass_AKing_Of_AnimalCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player1_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player2_MetaData[] = {
+		{ "Category", "Player References" },
+		{ "ModuleRelativePath", "King_Of_AnimalGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player2 = { "player2", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing_Of_AnimalGameMode, player2), Z_Construct_UClass_AKing_Of_AnimalCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player2_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::NewProp_player2,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AKing_Of_AnimalGameMode>::IsAbstract,
 	};
@@ -55,11 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalGameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalGameMode_Statics::Class_MetaDataParams))
@@ -73,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKing_Of_AnimalGameMode, 3160803379);
+	IMPLEMENT_CLASS(AKing_Of_AnimalGameMode, 2940608958);
 	template<> KING_OF_ANIMAL_API UClass* StaticClass<AKing_Of_AnimalGameMode>()
 	{
 		return AKing_Of_AnimalGameMode::StaticClass();

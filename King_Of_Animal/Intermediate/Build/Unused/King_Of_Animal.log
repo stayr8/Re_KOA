@@ -1,39 +1,25 @@
-﻿  Parsing headers for King_Of_AnimalEditor
-    Running UnrealHeaderTool "D:\Documents\Unreal Projects\King_Of_Animal\King_Of_Animal.uproject" "D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\King_Of_AnimalEditor\Development\King_Of_AnimalEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\찬희\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\stayr\Documents\GitHub\Re_KOA).
+  Parsing headers for King_Of_AnimalEditor
+    Running UnrealHeaderTool "C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\King_Of_Animal.uproject" "C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\King_Of_AnimalEditor\Development\King_Of_AnimalEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\stayr\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for King_Of_AnimalEditor in 6.3964616 seconds
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-0714.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-0714.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-1332.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-1332.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-2253.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-2253.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-2951.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-2951.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-4149.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-4149.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-4362.dll
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-4362.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-4764.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Binaries\Win64\UE4Editor-King_Of_Animal-5128.pdb
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-0714.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-1332.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-2253.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-2951.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-4149.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-4362.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-4764.lib
-  Deleted hot-reload file: D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal-5128.lib
+  Reflection code generated for King_Of_AnimalEditor in 4.733598 seconds
   Building King_Of_AnimalEditor...
-  Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] HitboxActor.cpp
-    [2/6] King_Of_Animal.init.gen.cpp
-    [3/6] HitboxActor.gen.cpp
-    [4/6] UE4Editor-King_Of_Animal.lib
-       D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.lib 라이브러리 및 D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.exp 개체를 생성하고 있습니다.
-    [5/6] UE4Editor-King_Of_Animal.dll
-       D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.lib 라이브러리 및 D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.exp 개체를 생성하고 있습니다.
-    [6/6] King_Of_AnimalEditor.target
-  Total time in Parallel executor: 2.45 seconds
-  Total execution time: 10.47 seconds
+  Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 16 processes...
+    [1/5] King_Of_AnimalGameMode.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(44): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(62): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(14): note: 'APawn' 선언을 참조하십시오.
+    [2/5] King_Of_AnimalGameMode.gen.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(44): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(62): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(14): note: 'APawn' 선언을 참조하십시오.
+    [3/5] UE4Editor-King_Of_Animal.lib
+       C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.lib 라이브러리 및 C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.exp 개체를 생성하고 있습니다.
+    [4/5] UE4Editor-King_Of_Animal.dll
+       C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.lib 라이브러리 및 C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.exp 개체를 생성하고 있습니다.
+    [5/5] King_Of_AnimalEditor.target
+  Total time in Parallel executor: 2.54 seconds
+  Total execution time: 8.20 seconds

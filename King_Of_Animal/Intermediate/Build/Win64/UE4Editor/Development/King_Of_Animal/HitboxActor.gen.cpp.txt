@@ -1,5 +1,5 @@
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Documents\Unreal Projects\King_Of_Animal\Source\King_Of_Animal/HitboxActor.h
-D:\Documents\Unreal Projects\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\HitboxActor.generated.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\Definitions.King_Of_Animal.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal/HitboxActor.h
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Inc\King_Of_Animal\HitboxActor.generated.h
