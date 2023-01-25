@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\King_Of_Animal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{18EEA472-88FF-4B2D-9DB4-DA7C862731A7}</UniqueIdentifier>
+      <UniqueIdentifier>{AC239481-985E-431B-8968-FA3DE36D13FC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\King_Of_Animal.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\King_Of_AnimalEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7D733C83-9E5D-41C6-81D8-B90284016E70}</UniqueIdentifier>
+      <UniqueIdentifier>{ADBD5BB5-84D3-46F6-966B-61A3AB4DD6A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\King_Of_Animal">
-      <UniqueIdentifier>{09824739-551E-4B9D-B5F8-FE10F6FEE17F}</UniqueIdentifier>
+      <UniqueIdentifier>{4EDC2AA4-EBFC-42D0-A7A1-6C51FDF5192F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\King_Of_Animal\HitboxActor.cpp">
       <Filter>Source\King_Of_Animal</Filter>
@@ -57,6 +58,12 @@
       <Filter>Source\King_Of_Animal</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\King_Of_Animal\King_Of_AnimalGameMode.h">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\King_Of_Animal\ZebraCharacter.cpp">
+      <Filter>Source\King_Of_Animal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\King_Of_Animal\ZebraCharacter.h">
       <Filter>Source\King_Of_Animal</Filter>
     </ClInclude>
   </ItemGroup>

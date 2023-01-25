@@ -7,6 +7,13 @@
 #include "King_Of_AnimalCharacter.h"
 #include "King_Of_AnimalGameMode.generated.h"
 
+UENUM(BlueprintType)
+enum class ECharacterClass : uint8
+{
+	VE_Default  UMETA(DisplayName = "Mannequin"),
+	VE_Zebra    UMETA(DisplayName = "Zebra")
+};
+
 UCLASS(minimalapi)
 class AKing_Of_AnimalGameMode : public AGameModeBase
 {
