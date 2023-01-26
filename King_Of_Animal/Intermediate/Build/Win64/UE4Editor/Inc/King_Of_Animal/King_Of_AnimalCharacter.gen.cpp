@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_King_Of_Animal();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AKing_Of_AnimalCharacter::execTakeDamage)
 	{
@@ -90,6 +91,10 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hurbox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hurbox;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_wasFirstAttackUsed_MetaData[];
 #endif
 		static void NewProp_wasFirstAttackUsed_SetBit(void* Obj);
@@ -139,6 +144,13 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing_Of_AnimalCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_hurbox_MetaData[] = {
+		{ "Category", "Hitbox" },
+		{ "ModuleRelativePath", "King_Of_AnimalCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_hurbox = { "hurbox", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing_Of_AnimalCharacter, hurbox), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_hurbox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_hurbox_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_wasFirstAttackUsed_MetaData[] = {
 		{ "Category", "Attacks" },
 		{ "Comment", "//Has the player used the basic attack?\n" },
@@ -163,6 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_CameraBoom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_hurbox,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_wasFirstAttackUsed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Of_AnimalCharacter_Statics::NewProp_playerHealth,
 	};
@@ -193,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_AnimalCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKing_Of_AnimalCharacter, 2362669219);
+	IMPLEMENT_CLASS(AKing_Of_AnimalCharacter, 1910258121);
 	template<> KING_OF_ANIMAL_API UClass* StaticClass<AKing_Of_AnimalCharacter>()
 	{
 		return AKing_Of_AnimalCharacter::StaticClass();

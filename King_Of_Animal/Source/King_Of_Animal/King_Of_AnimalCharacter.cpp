@@ -41,6 +41,7 @@ AKing_Of_AnimalCharacter::AKing_Of_AnimalCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
 
+	hurbox = nullptr;
 	wasFirstAttackUsed = false;
 
 	playerHealth = 1.00f;

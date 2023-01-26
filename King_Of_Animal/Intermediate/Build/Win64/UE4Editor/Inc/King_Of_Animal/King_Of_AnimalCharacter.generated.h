@@ -69,6 +69,7 @@ public: \
 #define King_Of_Animal_Source_King_Of_Animal_King_Of_AnimalCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(AKing_Of_AnimalCharacter, SideViewCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AKing_Of_AnimalCharacter, CameraBoom); } \
+	FORCEINLINE static uint32 __PPO__hurbox() { return STRUCT_OFFSET(AKing_Of_AnimalCharacter, hurbox); } \
 	FORCEINLINE static uint32 __PPO__wasFirstAttackUsed() { return STRUCT_OFFSET(AKing_Of_AnimalCharacter, wasFirstAttackUsed); } \
 	FORCEINLINE static uint32 __PPO__playerHealth() { return STRUCT_OFFSET(AKing_Of_AnimalCharacter, playerHealth); }
 
