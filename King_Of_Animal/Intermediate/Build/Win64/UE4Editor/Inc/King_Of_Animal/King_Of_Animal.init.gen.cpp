@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeKing_Of_Animal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF0B09856,
-				0x5DC8A553,
+				0xEA4CC7FA,
+				0x48B687E2,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

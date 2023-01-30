@@ -1,16 +1,46 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\stayr\Documents\GitHub\Re_KOA).
+  Parsing headers for King_Of_AnimalEditor
+    Running UnrealHeaderTool "C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\King_Of_Animal.uproject" "C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\King_Of_AnimalEditor\Development\King_Of_AnimalEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\stayr\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for King_Of_AnimalEditor in 4.3191831 seconds
   Building King_Of_AnimalEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] King_Of_AnimalCharacter.cpp
-C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(47): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
-C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(65): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+  Building 10 actions with 16 processes...
+    [1/10] King_Of_Animal.init.gen.cpp
+    [2/10] ZebraCharacter.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
     C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
     C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: 'APawn' 선언을 참조하십시오.
-    [2/4] UE4Editor-King_Of_Animal.lib
+    [3/10] King_Of_AnimalGameMode.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(14): note: 'APawn' 선언을 참조하십시오.
+    [4/10] ZebraCharacter.gen.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: 'APawn' 선언을 참조하십시오.
+    [5/10] King_Of_AnimalGameMode.gen.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(14): note: 'APawn' 선언을 참조하십시오.
+    [6/10] King_Of_AnimalCharacter.gen.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal/King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal/King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: 'APawn' 선언을 참조하십시오.
+    [7/10] King_Of_AnimalCharacter.cpp
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(53): warning C4263: 'void AKing_Of_AnimalCharacter::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다.
+C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Source\King_Of_Animal\King_Of_AnimalCharacter.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: 'APawn::TakeDamage' 선언을 참조하십시오.
+    C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: 'APawn' 선언을 참조하십시오.
+    [8/10] UE4Editor-King_Of_Animal.lib
        C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.lib 라이브러리 및 C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.exp 개체를 생성하고 있습니다.
-    [3/4] UE4Editor-King_Of_Animal.dll
+    [9/10] UE4Editor-King_Of_Animal.dll
        C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.lib 라이브러리 및 C:\Users\stayr\Documents\GitHub\Re_KOA\King_Of_Animal\Intermediate\Build\Win64\UE4Editor\Development\King_Of_Animal\UE4Editor-King_Of_Animal.suppressed.exp 개체를 생성하고 있습니다.
-    [4/4] King_Of_AnimalEditor.target
-  Total time in Parallel executor: 8.30 seconds
-  Total execution time: 8.80 seconds
+    [10/10] King_Of_AnimalEditor.target
+  Total time in Parallel executor: 5.29 seconds
+  Total execution time: 10.17 seconds

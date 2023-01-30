@@ -1,10 +1,17 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "King_Of_AnimalCharacter.generated.h"
+
+UENUM(BlueprintType)
+enum class EDirectionalInput : uint8
+{
+	VE_Default      UMETA(DisplayName = "NOT_MOVING"),
+	VE_MovingRight  UMETA(DisplayName = "MOVING_RIGHT"),
+	VE_MovingLeft   UMETA(DisplayName = "MOVING_LEFT")
+};
 
 UCLASS(config=Game)
 class AKing_Of_AnimalCharacter : public ACharacter
@@ -38,21 +45,58 @@ protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hitbox")
-	AActor* hurbox;
-	
 	// Damage the player
 	UFUNCTION(BlueprintCallable)
 	void TakeDamage(float _damageAmount);
 
-	//Has the player used the basic attack?
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
-	bool wasFirstAttackUsed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player References")
+	AKing_Of_AnimalCharacter* otherPlayer;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hitbox")
+	AActor* hurbox;
+
+	//The direction the character is moving or the direction the player is holding down
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	EDirectionalInput directionalInput;
+
+	// The character's transform
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
+	FTransform transform;
+
+	// The character's scale
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
+	FVector scale;
 
 	//The amount of health the character currently has.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float playerHealth;
+
+	//Has the player used the light attack?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+	bool wasLightAttackUsed;
+
+	//Has the player used the medium attack?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+	bool wasMediumAttackUsed;
+
+	//Has the player used the heavy attack?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+	bool wasHeavyAttackUsed;
+
+	//Has the player used the special attack?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+	bool wasSpecialAttackUsed;
+	
+	// Is the character's model flipped?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
+	bool isFlipped;
+
+	//Has the player landed a hit with their last attack?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
+	bool hasLandedHit;
 
 
 public:
