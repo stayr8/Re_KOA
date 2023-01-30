@@ -86,7 +86,6 @@ void AKing_Of_AnimalCharacter::TouchStopped(const ETouchIndex::Type FingerIndex,
 void AKing_Of_AnimalCharacter::StartAttack1()
 {
 	wasFirstAttackUsed = true;
-	TakeDamage(0.05f);
 }
 
 void AKing_Of_AnimalCharacter::StartAttack2()
